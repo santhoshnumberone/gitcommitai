@@ -13,7 +13,6 @@ It’s your drop-in CLI tool for AI-generated commits with no cloud APIs, built-
 - 🧠 **AI-powered messages**: Uses models like M Phi-3 to generate natural, readable Git commit messages.
 - 🔒 **Local-first, no cloud**: Runs completely offline with GGUF models via `llama-cpp-python`.
 - 📜 **Semantic Commit Enforcement**: Complies with [Conventional Commits](https://www.conventionalcommits.org/) — feat, fix, refactor, docs, etc.
-- 🔍 **Interactive CLI UX**: Flags for preview, edit, dry-run, no-context, and strict enforcement.
 - 🧪 **Audit Mode**: Scans repo for non-conforming commit messages (WIP).
 
 ---
