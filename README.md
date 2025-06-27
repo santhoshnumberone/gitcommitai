@@ -1,9 +1,4 @@
 # GitCommitAI+ 💬⚡ 
-**A Local-First, LLM-Powered Git Commit Assistant — Purpose-Aware + Offline**
-
-GitCommitAI+ helps you write clear, semantic, and purpose-driven Git commit messages using powerful open-source LLMs — **fully offline** via `llama.cpp`. 
-
-It’s your drop-in CLI tool for AI-generated commits with no cloud APIs, built-in RAG-style context, and a foundation for searchable purpose memory.
 
 
 ---
@@ -12,8 +7,6 @@ It’s your drop-in CLI tool for AI-generated commits with no cloud APIs, built-
 
 - 🧠 **AI-powered messages**: Uses models like M Phi-3 to generate natural, readable Git commit messages.
 - 🔒 **Local-first, no cloud**: Runs completely offline with GGUF models via `llama-cpp-python`.
-- 📜 **Semantic Commit Enforcement**: Complies with [Conventional Commits](https://www.conventionalcommits.org/) — feat, fix, refactor, docs, etc.
-- 🧪 **Audit Mode**: Scans repo for non-conforming commit messages (WIP).
 
 ---
 
