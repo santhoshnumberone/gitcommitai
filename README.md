@@ -97,17 +97,6 @@ To use a custom model:
 - Update the config.json to point to it
 
 ---
-## 🧠 Architecture
-```css
-[git diff] ─▶ [context_retriever.py]
-           └▶ [prompt_template.txt]
-           └▶ [llm_infer.py] ─▶ [semantic formatter] ─▶ [commit]
-
-```
-- Modular components: easy to plug in new models, formats, or context sources
-- Powered by `llama-cpp-python` — works on low-spec machines
-- Future: VSCode plugin + interactive shell mode
----
 ## 🤝 Contributing
 We welcome PRs, bug reports, ideas, and suggestions!
 See CONTRIBUTING.md for contribution guidelines.
