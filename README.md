@@ -13,8 +13,6 @@ It’s your drop-in CLI tool for AI-generated commits with no cloud APIs, built-
 - 🧠 **AI-powered messages**: Uses models like M Phi-3 to generate natural, readable Git commit messages.
 - 🔒 **Local-first, no cloud**: Runs completely offline with GGUF models via `llama-cpp-python`.
 - 📜 **Semantic Commit Enforcement**: Complies with [Conventional Commits](https://www.conventionalcommits.org/) — feat, fix, refactor, docs, etc.
-- 🧩 **Context-Aware (Phase 2)**: Enriches messages using branch name, file structure, prior commits, and README metadata.
-- 🗃️ **Purpose-first Logging (Coming Soon)**: Record purpose + files for each commit, enable searchable history across branches.
 - 🔍 **Interactive CLI UX**: Flags for preview, edit, dry-run, no-context, and strict enforcement.
 - 🧪 **Audit Mode**: Scans repo for non-conforming commit messages (WIP).
 
@@ -117,13 +115,6 @@ To use a custom model:
 - Modular components: easy to plug in new models, formats, or context sources
 - Powered by `llama-cpp-python` — works on low-spec machines
 - Future: VSCode plugin + interactive shell mode
----
-## 🔮 Phase 2+ Roadmap (In Progress)
-🗂️ Interactive Purpose-Staging CLI
-🧠 RAG-augmented prompt context from past commits + branch purpose chain
-🔍 Searchable Purpose History per Branch/Repo/Contributor
-🛡️ Audit Mode for conventional commit enforcement
-🧰 Plugin Hooks for custom model backends or extensions
 ---
 ## 🤝 Contributing
 We welcome PRs, bug reports, ideas, and suggestions!
